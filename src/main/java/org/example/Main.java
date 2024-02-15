@@ -22,7 +22,7 @@ public class Main {
         myHashTable.set("tetyana" , 46);
         myHashTable.set("daryna" , 14);
 
-        System.out.println("-----------------------------");
+        System.out.println("--------------------------");
         myHashTable.printTable();
     }
 }

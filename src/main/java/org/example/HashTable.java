@@ -43,7 +43,7 @@ public class HashTable {
             while(temp.next != null){
                 temp = temp.next;
             }
-            temp.next = newNode;
+            temp.next =  newNode;
         }
     }
 

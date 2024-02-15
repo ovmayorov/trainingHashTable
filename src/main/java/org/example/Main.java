@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.println("HashTable!");
+        System.out.println("HashTable!\n");
 
         HashTable myHashTable = new HashTable();
 
@@ -22,7 +22,12 @@ public class Main {
         myHashTable.set("tetyana" , 46);
         myHashTable.set("daryna" , 14);
 
-        System.out.println("--------------------------");
+        System.out.println("--------------------------\n");
         myHashTable.printTable();
+        System.out.println("--------------------------\n");
+
+        System.out.println(" Oleg is " + myHashTable.get("oleg"));
+        System.out.println(" Daryna is " + myHashTable.get("daryna"));
+
     }
 }

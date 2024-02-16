@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class HashTable {
 
     private int size = 7;
@@ -58,6 +60,18 @@ public class HashTable {
         return 0;
     }
 
+// keys method
+    public ArrayList keys(){
+        ArrayList<String> allKeys = new ArrayList<>();
+        for(int i = 0; i < dataMap.length; i++){
+            Node temp = dataMap[i];
+            while(temp != null){
+                allKeys.add(temp.key);
+                temp = temp.next;
+            }
+        }
+        return allKeys;
+    }
 
 //print method
     public void printTable(){

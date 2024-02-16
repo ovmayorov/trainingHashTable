@@ -29,5 +29,9 @@ public class Main {
         System.out.println(" Oleg is " + myHashTable.get("oleg"));
         System.out.println(" Daryna is " + myHashTable.get("daryna"));
 
+        System.out.println("--------------------------\n");
+        System.out.println("All keys:");
+        System.out.println(myHashTable.keys());
+
     }
 }
